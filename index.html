@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Nagarjuna Porumalla — Portfolio</title>
+        <link rel="icon" href="n.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <a class="brand" href="#hero">
+                    <div>
+                        <div style="font-weight:700">Nagarjuna Porumalla</div>
+                        <div style="font-size:20px;color:var(--muted)">Fresher | web Developer</div>
+                    </div>
+                </a>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
+            <section id="hero" class="hero card">
+                <div class="intro">
+                    <h1>Hi — I'm Nagarjuna, a motivated fresher in Computer Science</h1>
+                    <p>Highly motivated and result-oriented web developerand i'm learning front-end frameworks.</p>
+                    <div class="cta-row" style="margin-top:18px">
+                        <a class="btn" href="https://drive.google.com/file/d/1yWim2sFl2DNgU7QjtUGx0nQz6CX3a1yx/view?usp=drivesdk" target="_blank" rel="noopener">Download Resume</a>
+                        <a class="btn secondary" href="#contact">Get In Touch</a>
+                    </div>
+                    <div style="margin-top:16px;color:var(--muted);font-size:13px"></div>
+                </div>
+                <div class="hero-right">
+                    <img class="profile" src="n.png" alt="Profile image">
+                </div>
+            </section>
+            <section id="about" class="card about">
+                <h2 style="margin-top:0">About Me</h2>
+                <div class="two-col"><div>
+                    <p>
+                        I’m a final-year Computer Science student seeking a fast-paced engineering role with strong learning opportunities.<br>
+                        I believe in continuous learning, collaboration & the power of technology to transform ideas into reality.<br>
+                        Ready to take on new challenges & contribute to a dynamic team environment.
+                    </p>
+                </div>
+            </section>
+            <section id="education" class="card about">
+                <h2 style="margin-top:0">Education</h2>
+                <div class="two-col"><div>
+                    <div>
+                        <ul style="margin:0;padding-left:18px;color:var(--muted)">
+                            <li>Graduation: Computer Science & Engineering — MVR College Of Engineering & Technology - 6.97/10 (2022 - 2026)</li>
+                            <li>Intermediate: 12th Grade, M.P.C — government jr College - 540/1000 (2020 - 2022)</li>
+                            <li>Secondary School Certificate: Zilla parishad high school- 532/600 (2020)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="card">
+                <h2 style="margin-top:0">Skills</h2>
+                <div style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+                    <div style="flex:1;min-width:220px">
+                        <div class="chips">            
+                            <span class="chip">Python</span>
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">SQL</span>
+                            <span class="chip">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="certifications" class="card">
+                <h2 style="margin-top:0">Certifications</h2>
+                <div style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+                    <div style="flex:1;min-width:260px">
+                        <div class="cert">
+                            <div style="font-weight:700">Python programing</div>
+                            <div style="font-size:13px;color:var(--muted)">The Website Makers, April 2024</div>
+                            <a class="btn cert-btn"href="https://drive.google.com/file/d/1_5u8xdygBkiRUVBtFgMtTOPYWv95kMF0/view?usp=drivesdk" target="_blank" rel="noopener" style="margin-top:8px;font-weight:600;color:var(--accent);text-decoration:none">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="card">
+                <h2 style="margin-top:0">Projects/Internships</h2>
+                <p style="margin:6px 0 12px;color:var(--muted)">A small curated set of projects. Click view to open the project or its repo.</p>
+                <div class="carousel">
+                    <div class="slides">
+                        <article class="slide card">
+                            <img src="wd.png" alt="Project 1 image">
+                            <div class="meta" data-description="Project One — voting app(poll creator),create quations with answers,disply results">
+                                <h3>Project One — web development</h3>
+                                <div style="margin-top:12px">
+                                    <a class="btn" href="https://github.com/nagarjunaporumalla/SSTIMS250537.git">View Project</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+           <section id="contact" class="card">
+                <h2 style="margin-top:0">Contact</h2>
+                <p style="margin:6px 0;color:var(--muted)">Reach out for interviews, internships, and full-time roles.</p>
+                <form action="https://formsubmit.co/19860acb2e5b3bd097c192abda236358" method="post">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" placeholder="Your message" required></textarea>
+                    <div style="display:flex;gap:12px;align-items:center">
+                        <button type="submit" class="btn">Send Email</button>                    
+                    </div>
+                </form>
+            </section>
+            <footer>
+                <div>© <span id="year"></span> Nagarjuna Porumalla | Built with HTML & CSS</div>
+                <div class="social" style="display:flex;gap:12px">
+                    <a href="tel:+919347798968" style="color:var(--muted);text-decoration:none"><img src="phone.gif.jpg" alt="WhatsApp" style="width:20px;height:20px;vertical-align:middle"></a>
+                    <a href="https://wa.me/919347798968" style="color:var(--muted);text-decoration:none"><img src="whatsapp.jpeg" alt="WhatsApp" style="width:20px;height:20px;vertical-align:middle"></a>
+                    <a href="https://github.com/nagarjunaporumalla" style="color:var(--muted);text-decoration:none"><img src="git.gif.png" alt="GitHub" style="width:20px;height:20px;vertical-align:middle"></a>
+                    <a href="https://www.instagram.com/nagarjuna__g_o_u_d_" style="color:var(--muted);text-decoration:none"><img src="insta.gif.jpg" alt="Instagram" style="width:20px;height:20px;vertical-align:middle"></a>
+                </div>
+            </footer>
+        </div>
+        <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
